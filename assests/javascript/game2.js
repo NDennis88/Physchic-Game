@@ -26,10 +26,10 @@ document.onkeypress = function(event) {
 
     }
     
-    document.getElementById('wins').innerHTML = "Wins: " + wins;
-    document.getElementById('loses').innerHTML = "Loses: " + loses;
-    document.getElementById('guessesleft').innerHTML = "Guesses Left: " + guessesleft;
-    document.getElementById('guessessofar').innerHTML = "Your Guesses Left: " + guesssessofar;
+    document.getElementById('wins').innerHTML = "Wins:" + wins;
+    document.getElementById('loses').innerHTML = "Loses:" + loses;
+    document.getElementById('guessesleft').innerHTML = "Guesses Left:" + guessesleft;
+    document.getElementById('guessessofar').innerHTML = "Your Guesses Left:" + guesssessofar;
 }
 
 resetgame = function () {
