@@ -12,14 +12,17 @@ document.onkeypress = function(event) {
     guesssessofar.push(keys)
 
     if(keys === computerguess) {
+        alert("Great minds think alike!")
         wins++;
        
     }
     else {
+        alert("Your phsychic abilities require more practice!")
         guessesleft--;
         
     }
     if(guessesleft === 0) {
+        alert("How about we start over?")
         loses++;
         guessesleft = 9;
         guesssessofar.length = 0;
