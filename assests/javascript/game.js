@@ -17,7 +17,7 @@ document.onkeypress = function(event) {
        
     }
     else {
-        alert("Your phsychic abilities require more practice!")
+        alert("Your psychic abilities require more practice!")
         guessesleft--;
         
     }
