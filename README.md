@@ -1,4 +1,4 @@
-# Physchic-Game 01/06/19
+# Psychic-Game 01/06/19
 https://ndennis88.github.io/Physchic-Game/
 
 Are you physchic? Letter guessing game will show you if you can predict the future. 
